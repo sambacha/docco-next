@@ -1,5 +1,5 @@
 {
-  "name": "docco-next",
+  "name": "natspecco",
   "description": "Literate programming parser",
   "keywords": [
     "documentation",
@@ -17,20 +17,16 @@
   ],
   "version": "0.9.12",
   "license": "GPL3",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/mobily-enterprises/docco-next"
-  },
   "engines": {
     "node": ">= 8.0"
   },
   "dependencies": {
-    "ejs": "^3.x.x",
-    "marked": "^4.x.x",
     "commander": "^8.3.0",
-    "fs-extra": "^10.0.0",
-    "globby": "^11.0.4",
-    "shiki": "^0.9.11"
+    "ejs": "^3.1.8",
+    "fs-extra": "^10.1.0",
+    "globby": "^11.1.0",
+    "marked": "^4.0.17",
+    "shiki": "^0.10.1"
   },
   "devDependencies": {
     "eslint": "^8.3.0",
@@ -44,6 +40,6 @@
   },
   "main": "./docco",
   "bin": {
-    "docco": "./bin/docco"
+    "natspecco": "./bin/docco"
   }
 }
