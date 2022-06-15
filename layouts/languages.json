@@ -1,5 +1,5 @@
 {
-  "solidity": {"name": "solidity", "symbol": "///"},
+  ".sol":         {"name": "solidity", "symbol": "///"},
   "Cakefile":     {"name": "coffeescript", "symbol": "#"},
   ".applescript": {"name": "applescript", "symbol": "--"},
   ".as":          {"name": "actionscript", "symbol": "//"},
